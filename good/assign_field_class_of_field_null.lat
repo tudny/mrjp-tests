@@ -9,7 +9,7 @@ class D {
 }
 
 void tester() {
-	(new D).c.fld = null;
+	(new D).c.fld = (Y)null;
 }
 int main() {
 	return 0;

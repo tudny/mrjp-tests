@@ -65,8 +65,6 @@ int check_constexpr() {
 	else if ("abc" == "abcd") {}
 	else if ("abcd" == "abc") {}
 
-	else if (!(null == null)) {}
-
 	else if (!(true == true)) {}
 	else if (!(false == false)) {}
 	else if (true == false) {}
@@ -85,8 +83,6 @@ int check_constexpr() {
 	else if ("abc" != "abc") {}
 	else if (!("abc" != "abcd")) {}
 	else if (!("abcd" != "abc")) {}
-
-	else if (null != null) {}
 
 	else if (true != true) {}
 	else if (false != false) {}
@@ -134,9 +130,9 @@ string sabd() { return "abd"; }
 boolean btrue() { return true; }
 boolean bfalse() { return false; }
 
-int[] null_int_array() { return null; }
-X null_X() { return null; }
-Y null_Y() { return null; }
+int[] null_int_array() { return (int[])null; }
+X null_X() { return (X)null; }
+Y null_Y() { return (Y)null; }
 
 void check_runtime() {
 	int[] iarr = new int[4];

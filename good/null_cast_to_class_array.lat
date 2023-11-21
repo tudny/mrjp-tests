@@ -3,7 +3,7 @@ class list {
 }
 
 int main() {
-    (list[])null == null;
-    (list[][])null == null;
+    (list[])null == (list[])null;
+    (list[][])null == (list[][])null;
     return 0;
 }

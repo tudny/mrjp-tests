@@ -3,7 +3,7 @@
 class A {
     string x;
     void foo(B b) {
-        b.a = null;
+        b.a = (A)null;
         x = "ho ho ho";
         printString(x);
     }

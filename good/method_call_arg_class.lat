@@ -7,7 +7,7 @@ int main() {
 class X {}
 class G {
 	void foo(X x) {
-		if (x == null)
+		if (x == (X)null)
 			error();
 	}
 }

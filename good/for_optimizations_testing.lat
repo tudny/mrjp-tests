@@ -127,11 +127,11 @@ void test_bin_if() {
     if (s1 == s2) printString("if13"); else printString("else13");
     if (s1 != s2) printString("if14"); else printString("else14");
 
-    C c1 = null, c2 = new C;
+    C c1 = (C)null, c2 = new C;
     if (c1 == c2) printString("if15"); else printString("else15");
     if (c1 != c2) printString("if16"); else printString("else16");
 
-    int[] a1 = null, a2 = new int[42];
+    int[] a1 = (int[])null, a2 = new int[42];
     if (a1 == a2) printString("if17"); else printString("else17");
     if (a1 != a2) printString("if18"); else printString("else18");
 

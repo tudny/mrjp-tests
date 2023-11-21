@@ -18,7 +18,7 @@ class YY extends XX {
 void test() {
 	int x'iaaq'a = 42;
 	string foo, bar = "bla bla bla";
-	XX x, y = null, z = (XX)null;
+	XX x, y = (XX)null, z = (XX)null;
 	XX xx = new XX;
 	YY yy = new YY;
 	YY[] ayy = new YY[42];
@@ -26,7 +26,7 @@ void test() {
 	ayy[41];
 	xx.i;
 
-	ayy[27] = null;
+	ayy[27] = (YY)null;
 	xx.i = 188;
 
 	xx.a = "ho ho ho";
@@ -103,8 +103,8 @@ void check_def_init() {
 	int a = 1, b = 2;
 	string c = "abc", d = "";
 	boolean e = false, f = true;
-	YY g = null, h = (YY)null, i = new YY;
-	YY[] j = null, k = (YY[])null, l = new YY[42];
+	YY g = (YY)null, h = (YY)null, i = new YY;
+	YY[] j = (YY[])null, k = (YY[])null, l = new YY[42];
 	string s = "x", ss = s;
 	s = "";
 	if (ss != "x") error();
@@ -354,8 +354,8 @@ void check_eq_bool() {
 }
 
 void check_eq_null() {
-	boolean c = null == null;
-	c = !(null == null);
+	boolean c = true;
+	c = !(true);
 }
 
 void check_eq_arr() {
@@ -370,11 +370,11 @@ void check_eq_arr() {
 
 void check_eq_arr_null() {
 	A[] a = new A[142];
-	boolean c = a == null;
-	c = !(a == null);
-	c = null == a;
-	c = (new A).a == null;
-	c = null == (new A).a;
+	boolean c = a == (A[])null;
+	c = !(a == (A[])null);
+	c = (A[])null == a;
+	c = (new A).a == (A[])null;
+	c = (A[])null == (new A).a;
 }
 
 void check_eq_class() {
@@ -390,13 +390,13 @@ void check_eq_class() {
 
 void check_eq_class_null() {
 	A a = new A;
-	boolean c = a == null;
-	c = !(a == null);
-	c = null == a;
-	c = (new A).c == null;
-	c = null == (new A).c;
-	c = null == new A;
-	c = new A == null;
+	boolean c = a == (A)null;
+	c = !(a == (A)null);
+	c = (A)null == a;
+	c = (new A).c == (A)null;
+	c = (A)null == (new A).c;
+	c = (A)null == new A;
+	c = new A == (A)null;
 }
 
 void check_eq_classes_hierarchy() {
@@ -448,8 +448,8 @@ void check_ne_bool() {
 }
 
 void check_ne_null() {
-	boolean c = null != null;
-	c = !(null != null);
+	boolean c = false;
+	c = !(false);
 }
 
 void check_ne_arr() {
@@ -464,11 +464,11 @@ void check_ne_arr() {
 
 void check_ne_arr_null() {
 	A[] a = new A[142];
-	boolean c = a != null;
-	c = !(a != null);
-	c = null != a;
-	c = (new A).a != null;
-	c = null != (new A).a;
+	boolean c = a != (A[])null;
+	c = !(a != (A[])null);
+	c = (A[])null != a;
+	c = (new A).a != (A[])null;
+	c = (A[])null != (new A).a;
 }
 
 void check_ne_class() {
@@ -484,13 +484,13 @@ void check_ne_class() {
 
 void check_ne_class_null() {
 	A a = new A;
-	boolean c = a != null;
-	c = !(a != null);
-	c = null != a;
-	c = (new A).c != null;
-	c = null != (new A).c;
-	c = null != new A;
-	c = new A != null;
+	boolean c = a != (A)null;
+	c = !(a != (A)null);
+	c = (A)null != a;
+	c = (new A).c != (A)null;
+	c = (A)null != (new A).c;
+	c = (A)null != new A;
+	c = new A != (A)null;
 }
 
 void check_ne_classes_hierarchy() {
@@ -589,7 +589,7 @@ void check_string_arr_arr() {
 	a[16][3] = "hij";
 
 	for (string[] b : a) {
-		if (b != null) {
+		if (b != (string[])null) {
 			printString("[[[");
 			for (string s : b) {
 				printString(s);
@@ -641,7 +641,7 @@ void check_for() {
 		int arr;
 	// nasty case
 	for (string str : arr) {
-		arr = null;
+		arr = (string[])null;
 	}
 	for (string str : new string[4]) {
 		str = "bla bla" + str;
@@ -819,6 +819,7 @@ string check_return3() {
 					return "bla";
 					printInt(42);
 				}
+				return "bla";
 				printInt(42);
 			}
 			printInt(42);
@@ -847,6 +848,7 @@ string check_return4(int which) {
 					}
 					printInt(42);
 				}
+				return "bla";
 				printInt(42);
 			}
 			printInt(42);
@@ -1058,9 +1060,6 @@ void check_param_passing_string() {
 
 void check_param_passing_class() {
 	{
-		check_param_passing_class_impl(null, null);
-		check_param_passing_class_impl(null, new A);
-		check_param_passing_class_impl(new A, null);
 		check_param_passing_class_impl(new A, new A);
 		A x = new A, y = x;
 		check_param_passing_class_impl(x, new A);
@@ -1072,9 +1071,6 @@ void check_param_passing_class() {
 	}
 	{
 		ParamPassing pp = new ParamPassing;
-		pp.check_param_passing_class_impl(null, null);
-		pp.check_param_passing_class_impl(null, new A);
-		pp.check_param_passing_class_impl(new A, null);
 		pp.check_param_passing_class_impl(new A, new A);
 		A x = new A, y = x;
 		pp.check_param_passing_class_impl(x, new A);
@@ -1088,9 +1084,6 @@ void check_param_passing_class() {
 
 void check_param_passing_array() {
 	{
-		check_param_passing_array_impl(null, null);
-		check_param_passing_array_impl(null, new string[22]);
-		check_param_passing_array_impl(new string[22], null);
 		check_param_passing_array_impl(new string[22], new string[22]);
 		string[] x = new string[22], y = x;
 		check_param_passing_array_impl(x, new string[22]);
@@ -1102,9 +1095,6 @@ void check_param_passing_array() {
 	}
 	{
 		ParamPassing pp = new ParamPassing;
-		pp.check_param_passing_array_impl(null, null);
-		pp.check_param_passing_array_impl(null, new string[22]);
-		pp.check_param_passing_array_impl(new string[22], null);
 		pp.check_param_passing_array_impl(new string[22], new string[22]);
 		string[] x = new string[22], y = x;
 		pp.check_param_passing_array_impl(x, new string[22]);

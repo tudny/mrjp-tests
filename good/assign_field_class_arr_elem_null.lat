@@ -6,7 +6,7 @@ class C {
 }
 
 void tester() {
-	(new C[1])[2].fld = null;
+	(new C[1])[2].fld = (Y)null;
 }
 int main() {
 	return 0;

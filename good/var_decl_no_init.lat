@@ -9,8 +9,8 @@ int main() {
 	boolean b;
 	if (b) error();
 	int[][] arr;
-	if (arr != null) error();
+	if (arr != (int[][])null) error();
 	X x;
-	if (x != null) error();
+	if (x != (X)null) error();
 	return 0;
 }

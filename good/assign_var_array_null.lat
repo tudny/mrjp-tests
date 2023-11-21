@@ -2,7 +2,7 @@
 
 void tester() {
 	int[] x;
-	x = null;
+	x = (int[])null;
 }
 int main() {
 	return 0;

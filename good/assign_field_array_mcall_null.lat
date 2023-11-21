@@ -3,11 +3,11 @@ class C {
 	int[] fld;
 }
 class M {
-	C foo() { return null; }
+	C foo() { return (C)null; }
 }
 
 void tester() {
-	(new M).foo().fld = null;
+	(new M).foo().fld = (int[])null;
 }
 int main() {
 	return 0;

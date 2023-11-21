@@ -2,10 +2,10 @@
 class C {
 	int[] fld;
 }
-C foo() { return null; }
+C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = null;
+	foo().fld = (int[])null;
 }
 int main() {
 	return 0;
