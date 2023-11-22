@@ -5,7 +5,7 @@ class Z extends X {}
 
 void tester() {
 	X x = new X;
-	x == null = new Z;
+	x == (X)null = new Z;
 }
 int main() {
 	return 0;

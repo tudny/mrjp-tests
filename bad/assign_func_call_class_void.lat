@@ -2,7 +2,7 @@
 class Y extends X {}
 class X {}
 void vfunc() {}
-Y foo() { return null; }
+Y foo() { return (Y)null; }
 
 void tester() {
 	foo() = vfunc();

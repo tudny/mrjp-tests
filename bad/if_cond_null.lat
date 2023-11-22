@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void test() {
-	if (null) {}
+	if ((boolean)null) {}
 }
 int main() {
 	return 0;

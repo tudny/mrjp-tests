@@ -7,7 +7,7 @@ class D {
 }
 
 void tester() {
-	(new D).c.fld = null;
+	(new D).c.fld = (string)null;
 }
 int main() {
 	return 0;

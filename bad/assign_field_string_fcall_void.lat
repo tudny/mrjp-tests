@@ -3,7 +3,7 @@ void vfunc() {}
 class C {
 	string fld;
 }
-C foo() { return null; }
+C foo() { return (C)null; }
 
 void tester() {
 	foo().fld = vfunc();

@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void test() {
-	while(null) {}
+	while((boolean)null) {}
 }
 int main() {
 	return 0;

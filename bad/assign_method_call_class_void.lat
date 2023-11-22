@@ -3,7 +3,7 @@ class Y extends X {}
 class X {}
 void vfunc() {}
 class M {
-	Y foo() { return null; }
+	Y foo() { return (Y)null; }
 }
 
 void tester() {

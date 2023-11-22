@@ -2,7 +2,7 @@
 int foo() { return 0; }
 
 void tester() {
-	foo() = null;
+	foo() = (int)null;
 }
 int main() {
 	return 0;

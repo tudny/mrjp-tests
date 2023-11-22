@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
-string test() { return null; }
+string test() { return (string)null; }
 int main() {
 	return 0;
 }

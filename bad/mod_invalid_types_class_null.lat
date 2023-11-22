@@ -3,6 +3,6 @@ class X {}
 
 int main() {
 	X x;
-	x % null;
+	x % (X)null;
 	return 0;
 }

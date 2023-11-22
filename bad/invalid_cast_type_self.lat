@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-    (self)null == null;
+    (self)null == (self)null;
     return 0;
 }

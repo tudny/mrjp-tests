@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	42 && null;
+	42 && (int)null;
 	return 0;
 }

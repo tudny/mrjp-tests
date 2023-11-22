@@ -2,7 +2,7 @@
 
 void tester() {
 	int[] x = new int[3];
-	x != null = true;
+	x != (int[])null = true;
 }
 int main() {
 	return 0;

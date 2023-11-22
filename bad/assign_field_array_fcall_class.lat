@@ -4,7 +4,7 @@ class X {}
 class C {
 	int[] fld;
 }
-C foo() { return null; }
+C foo() { return (C)null; }
 
 void tester() {
 	foo().fld = new Y;

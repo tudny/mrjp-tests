@@ -2,6 +2,6 @@
 class Y extends X {}
 class X {}
 int main() {
-	null && new Y;
+	(Y)null && new Y;
 	return 0;
 }

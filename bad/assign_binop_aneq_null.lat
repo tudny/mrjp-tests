@@ -2,7 +2,7 @@
 
 void tester() {
 	int[] x = new int[3];
-	x == null = null;
+	x == (int[])null = (boolean)null;
 }
 int main() {
 	return 0;

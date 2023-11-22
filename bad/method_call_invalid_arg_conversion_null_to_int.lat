@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	(new G).foo(null);
+	(new G).foo((int)null);
 	return 0;
 }
 

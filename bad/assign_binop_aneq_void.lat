@@ -3,7 +3,7 @@ void vfunc() {}
 
 void tester() {
 	int[] x = new int[3];
-	x == null = vfunc();
+	x == (int[])null = vfunc();
 }
 int main() {
 	return 0;

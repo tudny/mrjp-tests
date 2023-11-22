@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	foo(null);
+	foo((boolean)null);
 	return 0;
 }
 

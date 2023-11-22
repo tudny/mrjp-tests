@@ -4,7 +4,7 @@ class C {
 }
 
 void tester() {
-	(new C).fld = null;
+	(new C).fld = (string)null;
 }
 int main() {
 	return 0;

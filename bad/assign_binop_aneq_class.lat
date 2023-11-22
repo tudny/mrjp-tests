@@ -4,7 +4,7 @@ class X {}
 
 void tester() {
 	int[] x = new int[3];
-	x == null = new Y;
+	x == (int[])null = new Y;
 }
 int main() {
 	return 0;

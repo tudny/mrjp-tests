@@ -5,7 +5,7 @@ class C {
 	int fld;
 }
 class M {
-	C foo() { return null; }
+	C foo() { return (C)null; }
 }
 
 void tester() {

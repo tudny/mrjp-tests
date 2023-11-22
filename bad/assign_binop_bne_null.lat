@@ -3,7 +3,7 @@
 void tester() {
 	boolean x, y;
 	x = true; y = false;
-	x != y = null;
+	x != y = (boolean)null;
 }
 int main() {
 	return 0;

@@ -4,7 +4,7 @@ class M {
 }
 
 void tester() {
-	(new M).foo() = null;
+	(new M).foo() = (string)null;
 }
 int main() {
 	return 0;

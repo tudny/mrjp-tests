@@ -2,7 +2,7 @@
 
 void tester() {
 	string x = "abc", y = "xyz";
-	x + y = null;
+	x + y = (string)null;
 }
 int main() {
 	return 0;

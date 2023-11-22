@@ -3,7 +3,7 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	new Y = null;
+	new Y = (Y)null;
 }
 int main() {
 	return 0;

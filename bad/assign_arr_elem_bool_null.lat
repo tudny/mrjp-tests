@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	(new boolean[3])[1] = null;
+	(new boolean[3])[1] = (boolean)null;
 }
 int main() {
 	return 0;

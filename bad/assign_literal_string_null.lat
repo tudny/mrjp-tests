@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	"abc" = null;
+	"abc" = (string)null;
 }
 int main() {
 	return 0;

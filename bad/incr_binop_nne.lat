@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	(null != null)++;
+	((int)null != (int)null)++;
 }
 int main() {
 	return 0;

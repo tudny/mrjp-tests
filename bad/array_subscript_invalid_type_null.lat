@@ -1,5 +1,7 @@
 // Author: Krzysztof Małysa (2020)
+class X {}
+
 int main() {
-	null[42];
+	((X)null)[42];
 	return 0;
 }

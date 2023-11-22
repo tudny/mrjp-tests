@@ -2,7 +2,7 @@
 class Y extends X {}
 class X {}
 class M {
-	int[] foo() { return null; }
+	int[] foo() { return (int[])null; }
 }
 
 void tester() {

@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	null > null;
+	(int)null > (int)null;
 	return 0;
 }

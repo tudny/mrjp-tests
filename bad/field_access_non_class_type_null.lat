@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	null.size;
+	((int)null).size;
 	return 0;
 }

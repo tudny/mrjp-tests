@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 class Y extends X {}
 class X {}
-Y foo() { return null; }
+Y foo() { return (Y)null; }
 
 void tester() {
 	foo() = new X;

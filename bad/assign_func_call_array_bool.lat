@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
-int[] foo() { return null; }
+int[] foo() { return (int[])null; }
 
 void tester() {
 	foo() = true;

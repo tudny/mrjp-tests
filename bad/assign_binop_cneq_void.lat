@@ -5,7 +5,7 @@ void vfunc() {}
 
 void tester() {
 	X x = new X;
-	x == null = vfunc();
+	x == (X)null = vfunc();
 }
 int main() {
 	return 0;

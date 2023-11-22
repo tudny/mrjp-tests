@@ -2,6 +2,6 @@
 void foo() {}
 
 int main() {
-	foo() % null;
+	foo() % (void)null;
 	return 0;
 }

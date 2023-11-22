@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void vfunc() {}
-int[] foo() { return null; }
+int[] foo() { return (int[])null; }
 
 void tester() {
 	foo() = vfunc();

@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void foo() {}
 int main() {
-	null && foo();
+	(void)null && foo();
 	return 0;
 }

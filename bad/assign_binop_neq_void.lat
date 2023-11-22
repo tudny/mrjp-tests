@@ -2,7 +2,7 @@
 void vfunc() {}
 
 void tester() {
-	null == null = vfunc();
+	(int[])null == (int[])null = vfunc();
 }
 int main() {
 	return 0;

@@ -2,7 +2,7 @@
 
 class TEST {
 void tester() {
-	self = null;
+	self = (TEST)null;
 }
 }
 int main() {

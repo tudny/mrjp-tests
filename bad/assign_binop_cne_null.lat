@@ -5,7 +5,7 @@ class X {}
 void tester() {
 	X x; Y y;
 	x = new X; y = new Y;
-	x != y = null;
+	x != y = (boolean)null;
 }
 int main() {
 	return 0;

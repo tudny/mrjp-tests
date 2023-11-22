@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void test() {
-	for (boolean x : null) {}
+	for (boolean x : (boolean)null) {}
 }
 int main() {
 	return 0;
