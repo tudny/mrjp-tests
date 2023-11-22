@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 void test() {
-	if ((boolean)null) {} else {}
+    if ((boolean)null) {} else {}
 }
 int main() {
-	return 0;
+    return 0;
 }

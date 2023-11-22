@@ -1,15 +1,15 @@
 // Author: Krzysztof Małysa (2020)
 void vfunc() {}
 class C {
-	int[] fld;
+    int[] fld;
 }
 class D {
-	C c;
+    C c;
 }
 
 void tester() {
-	(new D).c.fld = vfunc();
+    (new D).c.fld = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

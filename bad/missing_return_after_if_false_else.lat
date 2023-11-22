@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	if (false) return 0;
-	else {}
+    if (false) return 0;
+    else {}
 }

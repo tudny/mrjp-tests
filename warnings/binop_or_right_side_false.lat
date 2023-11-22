@@ -2,6 +2,6 @@
 boolean bfalse() { return false; }
 
 int main() {
-	bfalse() || false;
-	return 0;
+    bfalse() || false;
+    return 0;
 }

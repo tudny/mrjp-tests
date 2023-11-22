@@ -3,10 +3,10 @@ class X {}
 class Y extends X {}
 
 int main() {
-	(new G).foo(new X);
-	return 0;
+    (new G).foo(new X);
+    return 0;
 }
 
 class G {
-	void foo(Y a) {}
+    void foo(Y a) {}
 }

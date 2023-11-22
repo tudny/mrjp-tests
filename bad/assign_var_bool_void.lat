@@ -2,9 +2,9 @@
 void vfunc() {}
 
 void tester() {
-	boolean x;
-	x = vfunc();
+    boolean x;
+    x = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

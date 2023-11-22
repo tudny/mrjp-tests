@@ -2,10 +2,10 @@
 void vfunc() {}
 
 void tester() {
-	int[] x, y;
-	x = new int[3]; y = new int[2];
-	x != y = vfunc();
+    int[] x, y;
+    x = new int[3]; y = new int[2];
+    x != y = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

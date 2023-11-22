@@ -2,10 +2,10 @@
 void vfunc() {}
 
 void tester() {
-	boolean x, y;
-	x = true; y = false;
-	x == y = vfunc();
+    boolean x, y;
+    x = true; y = false;
+    x == y = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

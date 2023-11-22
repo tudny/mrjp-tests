@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void foo() {}
 int main() {
-	foo() > true;
-	return 0;
+    foo() > true;
+    return 0;
 }

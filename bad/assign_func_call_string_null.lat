@@ -2,8 +2,8 @@
 string foo() { return ""; }
 
 void tester() {
-	foo() = (string)null;
+    foo() = (string)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

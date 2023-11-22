@@ -1,11 +1,11 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	string fld;
+    string fld;
 }
 
 void tester() {
-	(new C).fld = "";
+    (new C).fld = "";
 }
 int main() {
-	return 0;
+    return 0;
 }

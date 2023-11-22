@@ -2,7 +2,7 @@
 class X {}
 
 int main() {
-	X x;
-	true + x;
-	return 0;
+    X x;
+    true + x;
+    return 0;
 }

@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	int x = -(-2147483647 - 1);
-	return 0;
+    int x = -(-2147483647 - 1);
+    return 0;
 }

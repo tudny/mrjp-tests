@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 class X {}
 int main() {
-	if ((X)null == (X)null) return 0;
+    if ((X)null == (X)null) return 0;
 }

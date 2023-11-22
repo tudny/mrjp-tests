@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	foo((X)null);
-	return 0;
+    foo((X)null);
+    return 0;
 }
 
 class X {}

@@ -3,6 +3,6 @@ class Y extends X {}
 class X {}
 class Z extends X {}
 int main() {
-	Y x = new Z;
-	return 0;
+    Y x = new Z;
+    return 0;
 }

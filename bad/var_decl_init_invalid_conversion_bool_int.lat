@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	boolean x = 42;
-	return 0;
+    boolean x = 42;
+    return 0;
 }

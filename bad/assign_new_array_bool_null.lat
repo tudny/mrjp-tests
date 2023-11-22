@@ -1,8 +1,8 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	new boolean[3] = (boolean[])null;
+    new boolean[3] = (boolean[])null;
 }
 int main() {
-	return 0;
+    return 0;
 }

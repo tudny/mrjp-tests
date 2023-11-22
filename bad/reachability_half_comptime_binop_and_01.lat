@@ -2,6 +2,6 @@
 boolean btrue() { return true; }
 
 int main() {
-	if (btrue() && true) {}
-	else return 0; // Make sure that compiler does not tell that this is dead code
+    if (btrue() && true) {}
+    else return 0; // Make sure that compiler does not tell that this is dead code
 }

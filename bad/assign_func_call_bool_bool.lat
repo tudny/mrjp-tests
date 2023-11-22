@@ -2,8 +2,8 @@
 boolean foo() { return true; }
 
 void tester() {
-	foo() = true;
+    foo() = true;
 }
 int main() {
-	return 0;
+    return 0;
 }

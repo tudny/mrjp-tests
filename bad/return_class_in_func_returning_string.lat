@@ -3,5 +3,5 @@ class Y extends X {}
 class X {}
 string test() { return new Y; }
 int main() {
-	return 0;
+    return 0;
 }

@@ -4,5 +4,5 @@ class X {}
 class Z extends X {}
 Y test() { return new Z; }
 int main() {
-	return 0;
+    return 0;
 }

@@ -3,15 +3,15 @@ class Y extends X {}
 class X {}
 class Z extends X {}
 class C {
-	Y fld;
+    Y fld;
 }
 class D {
-	C c;
+    C c;
 }
 
 void tester() {
-	(new D).c.fld = new Z;
+    (new D).c.fld = new Z;
 }
 int main() {
-	return 0;
+    return 0;
 }

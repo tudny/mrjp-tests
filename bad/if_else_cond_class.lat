@@ -2,8 +2,8 @@
 class Y extends X {}
 class X {}
 void test() {
-	if (new Y) {} else {}
+    if (new Y) {} else {}
 }
 int main() {
-	return 0;
+    return 0;
 }

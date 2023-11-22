@@ -17,5 +17,5 @@ int main() {
     B b = new B;
     b.a = new A;
     b.a.foo(b);
-	return 0;
+    return 0;
 }

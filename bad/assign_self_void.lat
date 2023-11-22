@@ -3,9 +3,9 @@ void vfunc() {}
 
 class TEST {
 void tester() {
-	self = vfunc();
+    self = vfunc();
 }
 }
 int main() {
-	return 0;
+    return 0;
 }

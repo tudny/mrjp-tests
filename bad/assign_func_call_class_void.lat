@@ -5,8 +5,8 @@ void vfunc() {}
 Y foo() { return (Y)null; }
 
 void tester() {
-	foo() = vfunc();
+    foo() = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

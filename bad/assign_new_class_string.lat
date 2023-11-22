@@ -3,8 +3,8 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	new Y = "";
+    new Y = "";
 }
 int main() {
-	return 0;
+    return 0;
 }

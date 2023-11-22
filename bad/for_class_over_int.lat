@@ -2,8 +2,8 @@
 class Y extends X {}
 class X {}
 void test() {
-	for (Y x : 42) {}
+    for (Y x : 42) {}
 }
 int main() {
-	return 0;
+    return 0;
 }

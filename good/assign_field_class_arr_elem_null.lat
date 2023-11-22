@@ -2,12 +2,12 @@
 class Y extends X {}
 class X {}
 class C {
-	Y fld;
+    Y fld;
 }
 
 void tester() {
-	(new C[1])[2].fld = (Y)null;
+    (new C[1])[2].fld = (Y)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

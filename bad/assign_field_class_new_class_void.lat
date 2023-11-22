@@ -3,12 +3,12 @@ class Y extends X {}
 class X {}
 void vfunc() {}
 class C {
-	Y fld;
+    Y fld;
 }
 
 void tester() {
-	(new C).fld = vfunc();
+    (new C).fld = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

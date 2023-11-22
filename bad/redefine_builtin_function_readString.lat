@@ -2,5 +2,5 @@
 string readString() { return ":p"; }
 
 int main() {
-	return 0;
+    return 0;
 }

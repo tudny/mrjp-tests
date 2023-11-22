@@ -2,5 +2,5 @@
 void foo() {}
 int test() { return foo(); }
 int main() {
-	return 0;
+    return 0;
 }

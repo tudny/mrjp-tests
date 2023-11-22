@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	new list;
-	return 0;
+    new list;
+    return 0;
 }

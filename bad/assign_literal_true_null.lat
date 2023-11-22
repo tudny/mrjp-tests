@@ -1,8 +1,8 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	true = (boolean)null;
+    true = (boolean)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

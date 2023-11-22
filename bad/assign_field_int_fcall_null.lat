@@ -1,12 +1,12 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	int fld;
+    int fld;
 }
 C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = (int)null;
+    foo().fld = (int)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

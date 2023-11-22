@@ -2,10 +2,10 @@
 void vfunc() {}
 
 void tester() {
-	string x, y;
-	x = "abc"; y = "";
-	x != y = vfunc();
+    string x, y;
+    x = "abc"; y = "";
+    x != y = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

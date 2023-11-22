@@ -4,9 +4,9 @@ class X {}
 void vfunc() {}
 
 void tester() {
-	Y x;
-	x = vfunc();
+    Y x;
+    x = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

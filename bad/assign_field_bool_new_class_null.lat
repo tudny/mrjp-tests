@@ -1,11 +1,11 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	boolean fld;
+    boolean fld;
 }
 
 void tester() {
-	(new C).fld = (boolean)null;
+    (new C).fld = (boolean)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

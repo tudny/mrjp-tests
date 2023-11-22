@@ -2,9 +2,9 @@
 class Y {}
 
 int main() {
-	Y y;
-	foo(y);
-	return 0;
+    Y y;
+    foo(y);
+    return 0;
 }
 
 void foo(X x) {}

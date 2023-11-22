@@ -3,8 +3,8 @@ void vfunc() {}
 string foo() { return ""; }
 
 void tester() {
-	foo() = vfunc();
+    foo() = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

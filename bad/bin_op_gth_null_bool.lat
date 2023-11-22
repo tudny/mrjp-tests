@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	(boolean)null > true;
-	return 0;
+    (boolean)null > true;
+    return 0;
 }

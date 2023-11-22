@@ -1,13 +1,13 @@
 // Author: Krzysztof Małysa (2020)
 class X {
-	void foo() {
-		bar(42);
-	}
+    void foo() {
+        bar(42);
+    }
 
-	void bar(int x) {}
+    void bar(int x) {}
 }
 
 int main() {
-	(new X).foo();
-	return 0;
+    (new X).foo();
+    return 0;
 }

@@ -2,8 +2,8 @@
 void vfunc() {}
 
 void tester() {
-	new boolean[3] = vfunc();
+    new boolean[3] = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

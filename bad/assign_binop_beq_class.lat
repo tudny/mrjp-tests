@@ -3,10 +3,10 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	boolean x, y;
-	x = true; y = false;
-	x == y = new Y;
+    boolean x, y;
+    x = true; y = false;
+    x == y = new Y;
 }
 int main() {
-	return 0;
+    return 0;
 }

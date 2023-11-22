@@ -2,7 +2,7 @@
 void foo() {}
 
 int main() {
-	int[] arr;
-	arr[foo()];
-	return 0;
+    int[] arr;
+    arr[foo()];
+    return 0;
 }

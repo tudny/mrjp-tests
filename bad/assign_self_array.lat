@@ -2,9 +2,9 @@
 
 class TEST {
 void tester() {
-	self = new int[3];
+    self = new int[3];
 }
 }
 int main() {
-	return 0;
+    return 0;
 }

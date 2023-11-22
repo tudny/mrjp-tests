@@ -1,12 +1,12 @@
 // Author: Krzysztof Małysa (2020)
 class X {
-	int x;
+    int x;
 }
 
 class Y extends X {
-	string x;
+    string x;
 }
 
 int main() {
-	return 0;
+    return 0;
 }

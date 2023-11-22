@@ -3,15 +3,15 @@ class Y extends X {}
 class X {}
 void vfunc() {}
 class C {
-	Y fld;
+    Y fld;
 }
 class M {
-	C foo() { return (C)null; }
+    C foo() { return (C)null; }
 }
 
 void tester() {
-	(new M).foo().fld = vfunc();
+    (new M).foo().fld = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

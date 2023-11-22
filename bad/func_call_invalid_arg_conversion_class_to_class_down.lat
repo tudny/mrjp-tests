@@ -3,8 +3,8 @@ class X {}
 class Y extends X {}
 
 int main() {
-	foo(new X);
-	return 0;
+    foo(new X);
+    return 0;
 }
 
 void foo(Y a) {}

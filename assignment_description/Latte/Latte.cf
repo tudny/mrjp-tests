@@ -4,11 +4,11 @@ entrypoints Program ;
 
 Program.   Program ::= [TopDef] ;
 
-FnDef.	   TopDef ::= Type Ident "(" [Arg] ")" Block ;
+FnDef.       TopDef ::= Type Ident "(" [Arg] ")" Block ;
 
 separator nonempty TopDef "" ;
 
-Arg. 	   Arg ::= Type Ident;
+Arg.        Arg ::= Type Ident;
 
 separator  Arg "," ;
 

@@ -7,5 +7,5 @@ int main() {
     printInt(3);
     printString(readString());
     printInt(4);
-	return 0;
+    return 0;
 }

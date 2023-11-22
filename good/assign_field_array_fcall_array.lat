@@ -1,12 +1,12 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	int[] fld;
+    int[] fld;
 }
 C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = new int[3];
+    foo().fld = new int[3];
 }
 int main() {
-	return 0;
+    return 0;
 }

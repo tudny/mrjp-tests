@@ -2,13 +2,13 @@
 class Y extends X {}
 class X {}
 class C {
-	Y fld;
+    Y fld;
 }
 C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = (Y)null;
+    foo().fld = (Y)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

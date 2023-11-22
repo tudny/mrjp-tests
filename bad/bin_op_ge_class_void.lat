@@ -3,6 +3,6 @@ class Y extends X {}
 class X {}
 void foo() {}
 int main() {
-	new Y >= foo();
-	return 0;
+    new Y >= foo();
+    return 0;
 }

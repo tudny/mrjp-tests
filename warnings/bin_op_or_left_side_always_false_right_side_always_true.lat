@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	false || true;
-	return 0;
+    false || true;
+    return 0;
 }

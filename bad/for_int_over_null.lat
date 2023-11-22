@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 void test() {
-	for (int x : (int)null) {}
+    for (int x : (int)null) {}
 }
 int main() {
-	return 0;
+    return 0;
 }

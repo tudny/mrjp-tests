@@ -2,6 +2,6 @@
 class X {}
 
 int main() {
-	(new X).bar;
-	return 0;
+    (new X).bar;
+    return 0;
 }

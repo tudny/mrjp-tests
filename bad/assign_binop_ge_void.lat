@@ -2,9 +2,9 @@
 void vfunc() {}
 
 void tester() {
-	int x = 5, y = 3;
-	x >= y = vfunc();
+    int x = 5, y = 3;
+    x >= y = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

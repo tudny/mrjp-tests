@@ -4,5 +4,5 @@ class X {}
 void foo() {}
 void test() { return new Y; }
 int main() {
-	return 0;
+    return 0;
 }

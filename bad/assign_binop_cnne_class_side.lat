@@ -4,9 +4,9 @@ class X {}
 class Z extends X {}
 
 void tester() {
-	X x = new X;
-	x != (X)null = new Z;
+    X x = new X;
+    x != (X)null = new Z;
 }
 int main() {
-	return 0;
+    return 0;
 }

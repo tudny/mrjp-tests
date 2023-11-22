@@ -2,6 +2,6 @@
 class X {}
 
 int main() {
-	((X)null)[42];
-	return 0;
+    ((X)null)[42];
+    return 0;
 }

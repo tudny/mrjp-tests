@@ -2,7 +2,7 @@
 class X {}
 
 int main() {
-	X x;
-	x + new string[3];
-	return 0;
+    X x;
+    x + new string[3];
+    return 0;
 }

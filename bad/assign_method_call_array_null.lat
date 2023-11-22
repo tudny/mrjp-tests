@@ -1,11 +1,11 @@
 // Author: Krzysztof Małysa (2020)
 class M {
-	int[] foo() { return (int[])null; }
+    int[] foo() { return (int[])null; }
 }
 
 void tester() {
-	(new M).foo() = (int[])null;
+    (new M).foo() = (int[])null;
 }
 int main() {
-	return 0;
+    return 0;
 }

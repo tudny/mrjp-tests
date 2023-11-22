@@ -2,9 +2,9 @@
 
 class TEST {
 void tester() {
-	self = (TEST)null;
+    self = (TEST)null;
 }
 }
 int main() {
-	return 0;
+    return 0;
 }

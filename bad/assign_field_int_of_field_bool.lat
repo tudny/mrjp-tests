@@ -1,14 +1,14 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	int fld;
+    int fld;
 }
 class D {
-	C c;
+    C c;
 }
 
 void tester() {
-	(new D).c.fld = true;
+    (new D).c.fld = true;
 }
 int main() {
-	return 0;
+    return 0;
 }

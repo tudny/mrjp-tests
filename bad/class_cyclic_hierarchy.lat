@@ -8,5 +8,5 @@ class Y extends X {}
 class Z extends Y {}
 
 int main() {
-	return 0;
+    return 0;
 }

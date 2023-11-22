@@ -2,6 +2,6 @@
 class Y extends X {}
 class X {}
 int main() {
-	new int[3] != new Y;
-	return 0;
+    new int[3] != new Y;
+    return 0;
 }

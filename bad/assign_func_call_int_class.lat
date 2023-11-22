@@ -4,8 +4,8 @@ class X {}
 int foo() { return 0; }
 
 void tester() {
-	foo() = new Y;
+    foo() = new Y;
 }
 int main() {
-	return 0;
+    return 0;
 }

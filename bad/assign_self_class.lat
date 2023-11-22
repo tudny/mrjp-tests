@@ -4,9 +4,9 @@ class X {}
 
 class TEST {
 void tester() {
-	self = new Y;
+    self = new Y;
 }
 }
 int main() {
-	return 0;
+    return 0;
 }

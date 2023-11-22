@@ -5,8 +5,8 @@ class Z extends X {}
 Y foo() { return (Y)null; }
 
 void tester() {
-	foo() = new Z;
+    foo() = new Z;
 }
 int main() {
-	return 0;
+    return 0;
 }

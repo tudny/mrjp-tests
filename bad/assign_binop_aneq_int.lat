@@ -1,9 +1,9 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	int[] x = new int[3];
-	x == (int[])null = 42;
+    int[] x = new int[3];
+    x == (int[])null = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

@@ -5,6 +5,6 @@ class Y extends X {}
 class Z extends X {}
 
 int main() {
-	Z x = (Y)null;
-	return 0;
+    Z x = (Y)null;
+    return 0;
 }

@@ -2,8 +2,8 @@
 void vfunc() {}
 
 void tester() {
-	(int[])null = vfunc();
+    (int[])null = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

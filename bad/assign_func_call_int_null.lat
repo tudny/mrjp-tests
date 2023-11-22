@@ -2,8 +2,8 @@
 int foo() { return 0; }
 
 void tester() {
-	foo() = (int)null;
+    foo() = (int)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

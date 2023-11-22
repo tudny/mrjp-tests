@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	null x = (int)null;
-	return 0;
+    null x = (int)null;
+    return 0;
 }

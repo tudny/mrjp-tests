@@ -1,10 +1,10 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	int x, y;
-	x = 5; y = 3;
-	x != y = 42;
+    int x, y;
+    x = 5; y = 3;
+    x != y = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

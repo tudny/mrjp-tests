@@ -2,8 +2,8 @@
 void vfunc() {}
 
 void tester() {
-	-(4+2) = vfunc();
+    -(4+2) = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

@@ -1,9 +1,9 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	string x;
-	x = new int[3];
+    string x;
+    x = new int[3];
 }
 int main() {
-	return 0;
+    return 0;
 }

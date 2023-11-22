@@ -1,12 +1,12 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	string fld;
+    string fld;
 }
 C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = 42;
+    foo().fld = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

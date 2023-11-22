@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	!(boolean)null;
-	return 0;
+    !(boolean)null;
+    return 0;
 }

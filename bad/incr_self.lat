@@ -2,9 +2,9 @@
 
 class TEST {
 void tester() {
-	self++;
+    self++;
 }
 }
 int main() {
-	return 0;
+    return 0;
 }

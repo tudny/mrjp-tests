@@ -2,12 +2,12 @@
 class Y extends X {}
 class X {}
 class M {
-	string foo() { return ""; }
+    string foo() { return ""; }
 }
 
 void tester() {
-	(new M).foo() = new Y;
+    (new M).foo() = new Y;
 }
 int main() {
-	return 0;
+    return 0;
 }

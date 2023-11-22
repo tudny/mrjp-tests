@@ -2,15 +2,15 @@
 class Y extends X {}
 class X {}
 class C {
-	Y fld;
+    Y fld;
 }
 class M {
-	C foo() { return (C)null; }
+    C foo() { return (C)null; }
 }
 
 void tester() {
-	(new M).foo().fld = 42;
+    (new M).foo().fld = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

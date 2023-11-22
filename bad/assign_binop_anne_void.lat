@@ -2,9 +2,9 @@
 void vfunc() {}
 
 void tester() {
-	int[] x = new int[3];
-	x != (int[])null = vfunc();
+    int[] x = new int[3];
+    x != (int[])null = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

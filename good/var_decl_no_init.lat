@@ -2,15 +2,15 @@
 class X {}
 
 int main() {
-	int i;
-	if (i != 0) error();
-	string s;
-	if (s != "") error();
-	boolean b;
-	if (b) error();
-	int[][] arr;
-	if (arr != (int[][])null) error();
-	X x;
-	if (x != (X)null) error();
-	return 0;
+    int i;
+    if (i != 0) error();
+    string s;
+    if (s != "") error();
+    boolean b;
+    if (b) error();
+    int[][] arr;
+    if (arr != (int[][])null) error();
+    X x;
+    if (x != (X)null) error();
+    return 0;
 }

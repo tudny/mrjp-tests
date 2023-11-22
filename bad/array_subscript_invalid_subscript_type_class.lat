@@ -2,8 +2,8 @@
 class X {}
 
 int main() {
-	int[] arr;
-	X x;
-	arr[x];
-	return 0;
+    int[] arr;
+    X x;
+    arr[x];
+    return 0;
 }

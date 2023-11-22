@@ -1,13 +1,13 @@
 // Author: Krzysztof Małysa (2020)
 void vfunc() {}
 class C {
-	int fld;
+    int fld;
 }
 C foo() { return (C)null; }
 
 void tester() {
-	foo().fld = vfunc();
+    foo().fld = vfunc();
 }
 int main() {
-	return 0;
+    return 0;
 }

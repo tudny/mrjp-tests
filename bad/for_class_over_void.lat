@@ -3,8 +3,8 @@ class Y extends X {}
 class X {}
 void vfunc() {}
 void test() {
-	for (Y x : vfunc()) {}
+    for (Y x : vfunc()) {}
 }
 int main() {
-	return 0;
+    return 0;
 }

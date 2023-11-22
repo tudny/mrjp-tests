@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	new null[42];
-	return 0;
+    new null[42];
+    return 0;
 }

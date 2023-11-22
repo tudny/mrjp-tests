@@ -5,10 +5,10 @@ class Y extends X {}
 class Z extends X {}
 
 int main() {
-	int[] a1 = (int[])null, a2 = (int[])null;
-	int[][] b1 = (int[][])null, b2 = (int[][])null;
-	X x1 = (X)null, x2 = (X)null, x3 = (Y)null, x4 = (Z)null;
-	Y y1 = (Y)null, y2 = (Y)null;
-	Z z1 = (Z)null, z2 = (Z)null;
-	return 0;
+    int[] a1 = (int[])null, a2 = (int[])null;
+    int[][] b1 = (int[][])null, b2 = (int[][])null;
+    X x1 = (X)null, x2 = (X)null, x3 = (Y)null, x4 = (Z)null;
+    Y y1 = (Y)null, y2 = (Y)null;
+    Z z1 = (Z)null, z2 = (Z)null;
+    return 0;
 }

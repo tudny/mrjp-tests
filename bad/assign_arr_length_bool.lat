@@ -1,8 +1,8 @@
 // Author: Krzysztof Małysa (2020)
 
 void tester() {
-	(new int[3]).length = true;
+    (new int[3]).length = true;
 }
 int main() {
-	return 0;
+    return 0;
 }

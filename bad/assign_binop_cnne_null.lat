@@ -3,9 +3,9 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	X x = new X;
-	x != (X)null = (boolean)null;
+    X x = new X;
+    x != (X)null = (boolean)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

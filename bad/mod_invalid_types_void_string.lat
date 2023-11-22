@@ -2,6 +2,6 @@
 void foo() {}
 
 int main() {
-	foo() % "xyz";
-	return 0;
+    foo() % "xyz";
+    return 0;
 }

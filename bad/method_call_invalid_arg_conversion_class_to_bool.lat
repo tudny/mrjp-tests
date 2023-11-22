@@ -2,10 +2,10 @@
 class X {}
 
 int main() {
-	(new G).foo(new X);
-	return 0;
+    (new G).foo(new X);
+    return 0;
 }
 
 class G {
-	void foo(boolean b) {}
+    void foo(boolean b) {}
 }

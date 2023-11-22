@@ -2,6 +2,6 @@
 class Y extends X {}
 class X {}
 int main() {
-	boolean x = new Y;
-	return 0;
+    boolean x = new Y;
+    return 0;
 }

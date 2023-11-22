@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 void foo() {}
 int main() {
-	(void)null < foo();
-	return 0;
+    (void)null < foo();
+    return 0;
 }

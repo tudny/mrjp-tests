@@ -1,14 +1,14 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	string fld;
+    string fld;
 }
 class D {
-	C c;
+    C c;
 }
 
 void tester() {
-	(new D).c.fld = (string)null;
+    (new D).c.fld = (string)null;
 }
 int main() {
-	return 0;
+    return 0;
 }

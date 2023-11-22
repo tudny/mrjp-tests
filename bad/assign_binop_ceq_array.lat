@@ -3,10 +3,10 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	X x; Y y;
-	x = new X; y = new Y;
-	x == y = new int[3];
+    X x; Y y;
+    x = new X; y = new Y;
+    x == y = new int[3];
 }
 int main() {
-	return 0;
+    return 0;
 }

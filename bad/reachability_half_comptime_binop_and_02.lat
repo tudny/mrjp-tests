@@ -2,6 +2,6 @@
 boolean btrue() { return true; }
 
 int main() {
-	if (true && btrue()) {}
-	else return 0;
+    if (true && btrue()) {}
+    else return 0;
 }

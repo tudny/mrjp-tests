@@ -1,10 +1,10 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	foo(new int[42]);
-	return 0;
+    foo(new int[42]);
+    return 0;
 }
 
 void foo(int[] a) {
-	printInt(a[0]);
-	printInt(a.length);
+    printInt(a[0]);
+    printInt(a.length);
 }

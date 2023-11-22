@@ -2,5 +2,5 @@
 int readInt() { return 42; }
 
 int main() {
-	return 0;
+    return 0;
 }

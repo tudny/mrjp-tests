@@ -3,9 +3,9 @@ class Y extends X {}
 class X {}
 
 void tester() {
-	Y x;
-	x = new X;
+    Y x;
+    x = new X;
 }
 int main() {
-	return 0;
+    return 0;
 }

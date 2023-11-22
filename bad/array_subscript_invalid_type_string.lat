@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	"abc"[42];
-	return 0;
+    "abc"[42];
+    return 0;
 }

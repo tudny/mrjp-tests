@@ -2,6 +2,6 @@
 class Y extends X {}
 class X {}
 int main() {
-	Y x = 42;
-	return 0;
+    Y x = 42;
+    return 0;
 }

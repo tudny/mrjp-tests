@@ -1,6 +1,6 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	int[] x;
-	-x;
-	return 0;
+    int[] x;
+    -x;
+    return 0;
 }

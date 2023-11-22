@@ -1,11 +1,11 @@
 // Author: Krzysztof Małysa (2020)
 class M {
-	int foo() { return 0; }
+    int foo() { return 0; }
 }
 
 void tester() {
-	(new M).foo() = 42;
+    (new M).foo() = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

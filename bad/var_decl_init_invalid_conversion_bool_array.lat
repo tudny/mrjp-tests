@@ -1,5 +1,5 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	boolean x = new int[3];
-	return 0;
+    boolean x = new int[3];
+    return 0;
 }

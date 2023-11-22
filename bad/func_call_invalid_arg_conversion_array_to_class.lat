@@ -1,7 +1,7 @@
 // Author: Krzysztof Małysa (2020)
 int main() {
-	foo(new int[4]);
-	return 0;
+    foo(new int[4]);
+    return 0;
 }
 
 class X {}

@@ -2,6 +2,6 @@
 void foo() {}
 
 int main() {
-	foo() / 42;
-	return 0;
+    foo() / 42;
+    return 0;
 }

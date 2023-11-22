@@ -2,8 +2,8 @@
 int[] foo() { return (int[])null; }
 
 void tester() {
-	foo() = 42;
+    foo() = 42;
 }
 int main() {
-	return 0;
+    return 0;
 }

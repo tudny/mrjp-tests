@@ -1,11 +1,11 @@
 // Author: Krzysztof Małysa (2020)
 class C {
-	string fld;
+    string fld;
 }
 
 void tester() {
-	(new C[1])[2].fld = new int[3];
+    (new C[1])[2].fld = new int[3];
 }
 int main() {
-	return 0;
+    return 0;
 }

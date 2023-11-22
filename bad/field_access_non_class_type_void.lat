@@ -2,6 +2,6 @@
 void foo() {}
 
 int main() {
-	foo().size;
-	return 0;
+    foo().size;
+    return 0;
 }

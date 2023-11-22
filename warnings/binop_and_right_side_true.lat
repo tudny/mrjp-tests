@@ -2,6 +2,6 @@
 boolean btrue() { return true; }
 
 int main() {
-	btrue() && true;
-	return 0;
+    btrue() && true;
+    return 0;
 }
