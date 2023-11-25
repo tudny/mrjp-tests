@@ -56,7 +56,7 @@ class PP {
         printClass(i4);
         i4 = new A;
         printClass(i4);
-        i4 = null;
+        i4 = (A)null;
         printClass(i4);
     }
 
@@ -101,7 +101,7 @@ class PP {
         printClass(i9);
         i9 = new A;
         printClass(i9);
-        i9 = null;
+        i9 = (A)null;
         printClass(i9);
     }
 
@@ -119,7 +119,7 @@ class PP {
         printClass(i11);
         i11 = new A;
         printClass(i11);
-        i11 = null;
+        i11 = (A)null;
         printClass(i11);
     }
 
@@ -128,7 +128,7 @@ class PP {
         printClass(i12);
         i12 = new A;
         printClass(i12);
-        i12 = null;
+        i12 = (A)null;
         printClass(i12);
     }
 
@@ -137,7 +137,7 @@ class PP {
         printClass(i13);
         i13 = new A;
         printClass(i13);
-        i13 = null;
+        i13 = (A)null;
         printClass(i13);
     }
 
@@ -146,7 +146,7 @@ class PP {
         printClass(i14);
         i14 = new A;
         printClass(i14);
-        i14 = null;
+        i14 = (A)null;
         printClass(i14);
     }
 
@@ -155,7 +155,7 @@ class PP {
         printClass(i15);
         i15 = new A;
         printClass(i15);
-        i15 = null;
+        i15 = (A)null;
         printClass(i15);
     }
 
@@ -164,7 +164,7 @@ class PP {
         printClass(i16);
         i16 = new A;
         printClass(i16);
-        i16 = null;
+        i16 = (A)null;
         printClass(i16);
     }
 
@@ -173,7 +173,7 @@ class PP {
         printClass(i17);
         i17 = new A;
         printClass(i17);
-        i17 = null;
+        i17 = (A)null;
         printClass(i17);
     }
 
@@ -182,7 +182,7 @@ class PP {
         printClass(i18);
         i18 = new A;
         printClass(i18);
-        i18 = null;
+        i18 = (A)null;
         printClass(i18);
     }
 
@@ -200,7 +200,7 @@ class PP {
         printClass(i20);
         i20 = new A;
         printClass(i20);
-        i20 = null;
+        i20 = (A)null;
         printClass(i20);
     }
 
@@ -245,7 +245,7 @@ class PP {
         printClass(i25);
         i25 = new A;
         printClass(i25);
-        i25 = null;
+        i25 = (A)null;
         printClass(i25);
     }
 
@@ -254,7 +254,7 @@ class PP {
         printClass(i26);
         i26 = new A;
         printClass(i26);
-        i26 = null;
+        i26 = (A)null;
         printClass(i26);
     }
 
@@ -290,7 +290,7 @@ class PP {
         printClass(i30);
         i30 = new A;
         printClass(i30);
-        i30 = null;
+        i30 = (A)null;
         printClass(i30);
     }
 
@@ -308,7 +308,7 @@ class PP {
         printClass(i32);
         i32 = new A;
         printClass(i32);
-        i32 = null;
+        i32 = (A)null;
         printClass(i32);
     }
 
@@ -317,7 +317,7 @@ class PP {
         printClass(i33);
         i33 = new A;
         printClass(i33);
-        i33 = null;
+        i33 = (A)null;
         printClass(i33);
     }
 
@@ -326,7 +326,7 @@ class PP {
         printClass(i34);
         i34 = new A;
         printClass(i34);
-        i34 = null;
+        i34 = (A)null;
         printClass(i34);
     }
 }
@@ -338,143 +338,143 @@ int main() {
     x.ss = "mimimimimimimimimimim";
 
     printString("=== 0 ===");
-    pp.f0(x, new B, new B, new B, null, new B, null, null, null, new B, new B, new B, new B, new B, null, new B, new B, new B, new B, new B, new B, new B, null, null, new B, new B, null, new B, null, null, new B, null, new B, null, null);
+    pp.f0(x, new B, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, new B, new B, new B, (A)null, new B, new B, new B, new B, new B, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 1 ===");
-    pp.f1(null, x, null, null, new B, new B, null, new B, new B, null, new B, new B, null, new B, null, new B, new B, null, new B, null, null, new B, null, new B, null, new B, null, null, null, new B, new B, null, new B, new B, new B);
+    pp.f1((A)null, x, (A)null, (A)null, new B, new B, (A)null, new B, new B, (A)null, new B, new B, (A)null, new B, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, new B, new B);
     printClass(x);
 
     printString("=== 2 ===");
-    pp.f2(new B, new B, x, null, new B, null, null, null, null, null, new B, new B, new B, new B, new B, new B, new B, new B, new B, null, new B, null, new B, new B, null, null, null, new B, new B, new B, null, new B, new B, new B, new B);
+    pp.f2(new B, new B, x, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, new B, new B, new B, new B, new B, new B, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, (A)null, new B, new B, new B, (A)null, new B, new B, new B, new B);
     printClass(x);
 
     printString("=== 3 ===");
-    pp.f3(null, new B, new B, x, new B, null, new B, new B, new B, new B, new B, null, new B, null, null, null, null, null, new B, null, null, null, null, new B, null, new B, new B, new B, new B, new B, new B, new B, new B, null, null);
+    pp.f3((A)null, new B, new B, x, new B, (A)null, new B, new B, new B, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, new B, new B, new B, new B, new B, new B, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 4 ===");
-    pp.f4(null, null, null, null, x, new B, null, new B, new B, new B, null, null, new B, new B, new B, null, null, null, new B, null, new B, new B, null, new B, new B, new B, new B, new B, new B, null, new B, null, new B, new B, new B);
+    pp.f4((A)null, (A)null, (A)null, (A)null, x, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, new B, (A)null, new B, new B, (A)null, new B, new B, new B, new B, new B, new B, (A)null, new B, (A)null, new B, new B, new B);
     printClass(x);
 
     printString("=== 5 ===");
-    pp.f5(new B, new B, null, null, new B, x, null, null, null, null, null, new B, null, null, null, null, null, null, new B, new B, new B, null, new B, new B, null, null, new B, null, new B, null, null, new B, new B, null, new B);
+    pp.f5(new B, new B, (A)null, (A)null, new B, x, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, (A)null, new B, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, new B, new B, (A)null, new B);
     printClass(x);
 
     printString("=== 6 ===");
-    pp.f6(new B, null, null, new B, null, new B, x, new B, new B, null, new B, new B, new B, new B, null, new B, null, new B, null, new B, new B, new B, new B, null, new B, null, new B, null, null, new B, null, new B, new B, new B, null);
+    pp.f6(new B, (A)null, (A)null, new B, (A)null, new B, x, new B, new B, (A)null, new B, new B, new B, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, new B, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, new B, (A)null, new B, new B, new B, (A)null);
     printClass(x);
 
     printString("=== 7 ===");
-    pp.f7(new B, new B, new B, null, null, new B, null, x, new B, null, null, null, null, null, null, null, null, null, null, new B, null, null, null, null, new B, new B, new B, null, null, new B, null, new B, null, new B, new B);
+    pp.f7(new B, new B, new B, (A)null, (A)null, new B, (A)null, x, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, new B);
     printClass(x);
 
     printString("=== 8 ===");
-    pp.f8(new B, null, null, null, new B, null, null, null, x, null, new B, null, new B, new B, new B, null, null, new B, new B, null, new B, new B, new B, new B, null, null, new B, null, new B, new B, new B, new B, new B, new B, new B);
+    pp.f8(new B, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, x, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, new B, new B, new B, (A)null, (A)null, new B, (A)null, new B, new B, new B, new B, new B, new B, new B);
     printClass(x);
 
     printString("=== 9 ===");
-    pp.f9(new B, new B, new B, new B, null, null, null, null, null, x, new B, new B, null, new B, new B, new B, null, null, new B, new B, null, new B, null, null, new B, new B, null, null, new B, new B, new B, null, new B, null, null);
+    pp.f9(new B, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, x, new B, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 10 ===");
-    pp.f10(new B, null, null, null, null, null, new B, new B, null, null, x, null, null, new B, null, new B, null, new B, null, new B, null, new B, new B, new B, null, null, new B, null, null, new B, null, null, null, new B, new B);
+    pp.f10(new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, x, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, new B);
     printClass(x);
 
     printString("=== 11 ===");
-    pp.f11(null, null, new B, null, null, new B, null, null, null, new B, null, x, new B, null, null, null, null, null, new B, null, new B, new B, null, null, new B, null, new B, null, new B, null, new B, new B, new B, null, null);
+    pp.f11((A)null, (A)null, new B, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, (A)null, x, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 12 ===");
-    pp.f12(new B, null, null, new B, new B, null, new B, new B, null, null, new B, null, x, new B, new B, null, null, null, null, null, new B, null, null, null, new B, null, new B, null, null, null, new B, new B, null, null, null);
+    pp.f12(new B, (A)null, (A)null, new B, new B, (A)null, new B, new B, (A)null, (A)null, new B, (A)null, x, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, (A)null);
     printClass(x);
 
     printString("=== 13 ===");
-    pp.f13(new B, null, null, new B, new B, null, null, null, new B, new B, null, new B, null, x, null, null, null, null, new B, new B, null, new B, null, null, null, null, null, null, null, null, new B, null, null, new B, null);
+    pp.f13(new B, (A)null, (A)null, new B, new B, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, x, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, new B, (A)null);
     printClass(x);
 
     printString("=== 14 ===");
-    pp.f14(new B, null, new B, new B, new B, new B, null, null, null, null, new B, new B, null, null, x, null, new B, null, new B, null, new B, new B, null, null, new B, new B, null, new B, new B, null, null, null, null, null, new B);
+    pp.f14(new B, (A)null, new B, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, x, (A)null, new B, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B);
     printClass(x);
 
     printString("=== 15 ===");
-    pp.f15(null, new B, new B, null, new B, new B, null, new B, new B, new B, new B, new B, new B, null, null, x, null, null, null, null, new B, null, null, null, new B, new B, new B, new B, new B, null, null, null, null, new B, null);
+    pp.f15((A)null, new B, new B, (A)null, new B, new B, (A)null, new B, new B, new B, new B, new B, new B, (A)null, (A)null, x, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null);
     printClass(x);
 
     printString("=== 16 ===");
-    pp.f16(null, null, null, null, new B, null, new B, new B, new B, null, null, new B, null, new B, null, new B, x, null, null, new B, new B, new B, null, new B, new B, new B, null, new B, new B, new B, null, new B, new B, new B, null);
+    pp.f16((A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, x, (A)null, (A)null, new B, new B, new B, (A)null, new B, new B, new B, (A)null, new B, new B, new B, (A)null, new B, new B, new B, (A)null);
     printClass(x);
 
     printString("=== 17 ===");
-    pp.f17(null, new B, new B, new B, new B, new B, new B, null, null, new B, new B, new B, new B, null, null, null, null, x, new B, null, null, new B, null, new B, null, null, null, null, null, new B, new B, new B, new B, new B, new B);
+    pp.f17((A)null, new B, new B, new B, new B, new B, new B, (A)null, (A)null, new B, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, x, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, new B, new B, new B);
     printClass(x);
 
     printString("=== 18 ===");
-    pp.f18(null, new B, null, new B, null, new B, new B, new B, new B, new B, null, new B, null, null, null, null, null, new B, x, null, null, new B, new B, null, null, new B, new B, new B, null, null, null, null, null, new B, null);
+    pp.f18((A)null, new B, (A)null, new B, (A)null, new B, new B, new B, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, x, (A)null, (A)null, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null);
     printClass(x);
 
     printString("=== 19 ===");
-    pp.f19(new B, null, new B, new B, null, null, new B, new B, null, new B, null, new B, new B, new B, null, null, new B, null, null, x, null, null, new B, new B, new B, null, null, null, null, null, null, new B, null, null, new B);
+    pp.f19(new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, (A)null, x, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, new B);
     printClass(x);
 
     printString("=== 20 ===");
-    pp.f20(null, null, null, null, new B, null, new B, null, new B, new B, new B, null, new B, new B, null, null, null, null, new B, null, x, new B, null, new B, null, new B, new B, new B, new B, null, null, new B, new B, new B, null);
+    pp.f20((A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, new B, new B, (A)null, new B, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null, x, new B, (A)null, new B, (A)null, new B, new B, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null);
     printClass(x);
 
     printString("=== 21 ===");
-    pp.f21(new B, new B, null, new B, new B, new B, new B, null, new B, null, null, new B, null, new B, null, null, null, new B, new B, new B, new B, x, new B, new B, null, new B, null, null, new B, null, null, null, new B, new B, new B);
+    pp.f21(new B, new B, (A)null, new B, new B, new B, new B, (A)null, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, new B, new B, x, new B, new B, (A)null, new B, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, new B);
     printClass(x);
 
     printString("=== 22 ===");
-    pp.f22(null, null, new B, null, new B, new B, new B, null, new B, null, new B, new B, new B, new B, new B, null, new B, new B, null, null, new B, new B, x, null, new B, new B, new B, new B, null, new B, null, new B, null, null, null);
+    pp.f22((A)null, (A)null, new B, (A)null, new B, new B, new B, (A)null, new B, (A)null, new B, new B, new B, new B, new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, x, (A)null, new B, new B, new B, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null);
     printClass(x);
 
     printString("=== 23 ===");
-    pp.f23(null, null, new B, new B, null, new B, null, new B, null, null, null, null, new B, null, null, new B, new B, new B, new B, new B, null, new B, new B, x, null, null, null, null, new B, new B, null, new B, null, null, null);
+    pp.f23((A)null, (A)null, new B, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, new B, new B, new B, new B, new B, (A)null, new B, new B, x, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null);
     printClass(x);
 
     printString("=== 24 ===");
-    pp.f24(new B, null, null, new B, null, new B, null, new B, null, null, null, new B, new B, new B, null, new B, new B, new B, null, new B, new B, null, new B, null, x, new B, new B, new B, new B, new B, new B, new B, null, new B, new B);
+    pp.f24(new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, new B, (A)null, new B, new B, new B, (A)null, new B, new B, (A)null, new B, (A)null, x, new B, new B, new B, new B, new B, new B, new B, (A)null, new B, new B);
     printClass(x);
 
     printString("=== 25 ===");
-    pp.f25(new B, null, null, null, null, new B, new B, null, null, null, null, new B, null, new B, null, new B, null, null, new B, new B, null, null, new B, new B, null, x, new B, null, new B, new B, new B, new B, new B, new B, new B);
+    pp.f25(new B, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, (A)null, new B, new B, (A)null, (A)null, new B, new B, (A)null, x, new B, (A)null, new B, new B, new B, new B, new B, new B, new B);
     printClass(x);
 
     printString("=== 26 ===");
-    pp.f26(null, null, null, new B, new B, null, new B, null, new B, new B, null, null, new B, new B, new B, null, null, null, null, null, new B, new B, new B, new B, null, null, x, null, null, new B, null, null, null, new B, null);
+    pp.f26((A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, new B, (A)null, (A)null, x, (A)null, (A)null, new B, (A)null, (A)null, (A)null, new B, (A)null);
     printClass(x);
 
     printString("=== 27 ===");
-    pp.f27(new B, new B, new B, new B, new B, null, new B, new B, null, null, null, new B, new B, null, new B, null, null, null, null, null, null, null, new B, null, null, null, null, x, null, null, null, null, new B, null, null);
+    pp.f27(new B, new B, new B, new B, new B, (A)null, new B, new B, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, (A)null, x, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 28 ===");
-    pp.f28(null, new B, new B, null, new B, null, null, null, new B, null, new B, null, null, null, new B, new B, null, null, null, new B, null, new B, null, new B, null, new B, new B, null, x, new B, new B, null, null, new B, new B);
+    pp.f28((A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, (A)null, x, new B, new B, (A)null, (A)null, new B, new B);
     printClass(x);
 
     printString("=== 29 ===");
-    pp.f29(null, null, null, new B, new B, new B, null, null, new B, null, null, new B, new B, new B, new B, new B, null, new B, null, new B, null, new B, new B, null, null, new B, new B, null, null, x, null, new B, null, null, null);
+    pp.f29((A)null, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, (A)null, new B, new B, new B, new B, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, (A)null, (A)null, x, (A)null, new B, (A)null, (A)null, (A)null);
     printClass(x);
 
     printString("=== 30 ===");
-    pp.f30(null, new B, null, null, new B, new B, null, null, null, null, null, null, null, null, new B, new B, null, new B, new B, new B, null, null, new B, new B, new B, null, null, null, new B, new B, x, new B, new B, null, null);
+    pp.f30((A)null, new B, (A)null, (A)null, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, new B, new B, x, new B, new B, (A)null, (A)null);
     printClass(x);
 
     printString("=== 31 ===");
-    pp.f31(null, new B, new B, null, null, new B, null, new B, new B, null, new B, null, null, null, new B, null, new B, null, new B, null, new B, new B, null, null, new B, new B, null, new B, new B, new B, null, x, new B, null, new B);
+    pp.f31((A)null, new B, new B, (A)null, (A)null, new B, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, (A)null, new B, new B, (A)null, (A)null, new B, new B, (A)null, new B, new B, new B, (A)null, x, new B, (A)null, new B);
     printClass(x);
 
     printString("=== 32 ===");
-    pp.f32(null, null, new B, null, null, new B, null, new B, null, null, new B, new B, null, new B, null, null, null, null, new B, new B, null, new B, null, null, null, null, null, null, new B, null, null, new B, x, null, null);
+    pp.f32((A)null, (A)null, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, new B, (A)null, (A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, new B, x, (A)null, (A)null);
     printClass(x);
 
     printString("=== 33 ===");
-    pp.f33(null, null, null, null, null, new B, null, null, null, null, new B, new B, null, null, new B, null, new B, null, new B, new B, null, new B, new B, new B, null, null, new B, new B, new B, null, new B, null, new B, x, null);
+    pp.f33((A)null, (A)null, (A)null, (A)null, (A)null, new B, (A)null, (A)null, (A)null, (A)null, new B, new B, (A)null, (A)null, new B, (A)null, new B, (A)null, new B, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, new B, new B, (A)null, new B, (A)null, new B, x, (A)null);
     printClass(x);
 
     printString("=== 34 ===");
-    pp.f34(new B, new B, null, new B, new B, new B, null, null, null, null, new B, null, new B, new B, new B, null, null, new B, null, null, new B, new B, new B, new B, null, null, null, null, null, new B, new B, new B, null, null, x);
+    pp.f34(new B, new B, (A)null, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, new B, (A)null, new B, new B, new B, (A)null, (A)null, new B, (A)null, (A)null, new B, new B, new B, new B, (A)null, (A)null, (A)null, (A)null, (A)null, new B, new B, new B, (A)null, (A)null, x);
     printClass(x);
 
     return 0;
