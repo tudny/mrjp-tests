@@ -1,0 +1,13 @@
+Error: Duplicate class name: A
+  line 7, column 7
+  line 5, column 7
+
+2:     return 0;
+3: }
+4: 
+5: class A {}
+--       ^
+6: 
+7: class A {}
+--       ^
+== 

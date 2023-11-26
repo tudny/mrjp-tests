@@ -1,0 +1,11 @@
+int func() { return 42; }
+
+class A {
+    string func() { return "hello"; }
+
+    string test() { return func(); }
+}
+
+int main () {
+    return 0;
+}
