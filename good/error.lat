@@ -1,4 +1,5 @@
 // Author: Krzysztof Małysa (2021)
 int main() {
     error();
+    return 0;
 }

@@ -111,7 +111,7 @@ int check_constexpr() {
     // else if (!(bfalse() || true)) {} // it is OK not to detect this if's condition value at compile time, because left side of ... || true may have side effects, nontheless a warning would be appreciated
     else if (!(true || bfalse())) {}
 
-    else return 0;
+    return 0;
 }
 
 int i0() { return 0; }

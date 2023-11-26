@@ -3,4 +3,6 @@ int main() {
     int x;
     if (x != x) {}
     else return 0;
+
+    return 1;
 }

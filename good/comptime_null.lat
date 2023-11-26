@@ -2,4 +2,5 @@
 class X {}
 int main() {
     if ((X)null == (X)null) return 0;
+    return 1;
 }

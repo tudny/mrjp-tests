@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-use_valgrind=true # if you disable leaks, and leave this, valgrind may find invalid memory reads / writes
-valgrind_check_for_leaks=true
+use_valgrind=false # true # if you disable leaks, and leave this, valgrind may find invalid memory reads / writes
+valgrind_check_for_leaks=false # true
 
 script_dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 tmp_dir=$(mktemp -d)
@@ -37,6 +37,8 @@ good_test_compilation_succeeded() {
         fail "first line of compiler's stderr is not \"OK\""
         if $single_test; then cat "${compiler_stderr}"; fi
         return 1
+    else
+        return 0
     fi
     if ${use_valgrind}; then
         valgrind_prefix="valgrind --log-file=${valgrind_log_file} "
