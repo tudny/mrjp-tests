@@ -1,12 +1,12 @@
 class X {
     X foo() {
-        return new X();
+        return new X;
     }
 }
 
 class Y extends X {
     Y foo() {
-        return new Y();
+        return new Y;
     }
 }
 
