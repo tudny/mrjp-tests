@@ -1,0 +1,15 @@
+class X {
+    X foo() {
+        return new X();
+    }
+}
+
+class Y extends X {
+    Y foo() {
+        return new Y();
+    }
+}
+
+int main() {
+    return 0;
+}
