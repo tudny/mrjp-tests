@@ -1,0 +1,12 @@
+boolean returnFalse() {
+    return false;
+}
+
+int main() {
+    while (returnFalse() || true) {
+        printInt(1);
+        return 0;
+    }
+    printInt(3);
+    return 0;
+}
