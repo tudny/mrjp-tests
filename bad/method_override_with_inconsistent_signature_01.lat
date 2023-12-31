@@ -1,0 +1,15 @@
+class X {
+    void foo(int x) {
+        printInt(x);
+    }
+}
+
+class Y extends X {
+    void foo(string x) {
+        printString(x);
+    }
+}
+
+int main() {
+    return 0;
+}
