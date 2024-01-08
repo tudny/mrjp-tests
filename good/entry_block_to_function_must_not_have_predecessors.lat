@@ -1,0 +1,14 @@
+
+boolean calc(boolean b) {
+    return !b;
+}
+
+int foo(boolean b) {
+    while (calc(b));
+    return 0;
+}
+
+int main() {
+    foo(true);
+    return 0;
+}
